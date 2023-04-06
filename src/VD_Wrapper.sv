@@ -47,21 +47,21 @@ localparam RX_OK_BIT   = 7;
 
 // Remember to complete the port connection
 VD_core vd_core(
-    .clk				(avm_clk),
-    .rst				(avm_rst),
+    .clk                (avm_clk),
+    .rst                (avm_rst),
 
-	.o_ready			(),
-    .i_valid			(),
-    .i_sequence_ref		(),
-    .i_sequence_read	(),
-    .i_seq_ref_length	(),
-    .i_seq_read_length	(),
+    .o_ready            (),
+    .i_valid            (),
+    .i_sequence_ref     (),
+    .i_sequence_read    (),
+    .i_seq_ref_length   (),
+    .i_seq_read_length  (),
     
-    .i_ready			(),
-    .o_valid			(),
-    .o_alignment_score	(),
-    .o_column			(),
-    .o_row				()
+    .i_ready            (),
+    .o_valid            (),
+    .o_alignment_score  (),
+    .o_column           (),
+    .o_row              ()
 );
 
 
@@ -73,11 +73,11 @@ end
 // ** TODO
 always_ff @(posedge avm_clk or posedge avm_rst) begin
     if (avm_rst) begin
-    	
+        
 
     end
-	else begin
-    	
+    else begin
+        
 
     end
 end
