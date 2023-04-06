@@ -103,7 +103,7 @@ The requirements are:
 * src/tb_verilog/
 	* Verilog testbench for VD core and wrapper
 * src/VD_core.sv
-    * Implement Smith-Waterman algorithm here
+    * Implement Viterbi decoding algorithm here
 * src/VD_Wrapper.sv
     * Implement controller for RS232 protocol
     * Including reading check bits and read/write data. 
