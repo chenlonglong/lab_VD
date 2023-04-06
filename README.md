@@ -1,4 +1,4 @@
-# Lab bonus - Viterbi Decoding Algorithm for Pair-Hidden Markov Model Guideline
+# Lab 2 - Viterbi Decoding Algorithm for Pair-Hidden Markov Model Guideline
 
 The roadmap of this lab:
 
@@ -121,7 +121,7 @@ python test_rs232.py [COM? | /dev/ttyS0 | /dev/ttyUSB0]
 ## Generating Testing Data
 * Move to cpp/
   ```
-  cd ./lab_bonus_VD/src/cpp
+  cd ./lab_VD/src/cpp
   ```
 * Compile ./cpp/src/gen_data.cpp
   ```
@@ -138,7 +138,7 @@ python test_rs232.py [COM? | /dev/ttyS0 | /dev/ttyUSB0]
 ## Perform VD Algorithm (c code)
 * Move to cpp/
   ```
-  cd ./lab_bonus_VD/src/cpp
+  cd ./lab_VD/src/cpp
   ```
 * Compile ./cpp/src/main.cpp
   ```
